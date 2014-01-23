@@ -3743,9 +3743,9 @@ static int bluetooth_power(int on)
 		msleep(100);
 		gpio_direction_output(GPIO_RST_BT, GPIO_WLAN_LEVEL_HIGH);
 
-		bluesleep_start();
+		//bluesleep_start();
 	} else {
-		bluesleep_stop();
+		//bluesleep_stop();
 		msleep(10);
 		gpio_direction_output(GPIO_RST_BT, GPIO_WLAN_LEVEL_LOW);/* BT_RESET */
 
