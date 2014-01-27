@@ -3167,7 +3167,7 @@ printk("################writing 1\n");
 	s->s_config = s5k4ecgx_sensor_config;
 	s->s_ext_config = s5k4ecgx_sensor_ext_config;
 	s->s_camera_type = BACK_CAMERA_2D;
-	s->s_mount_angle = 90;
+	s->s_mount_angle = 0;
 
 	cam_pw(0);
 probe_done:
