@@ -1900,7 +1900,7 @@ static int sr300pc20_sensor_probe(const struct msm_camera_sensor_info *info,
 	s->s_ext_config = sr300pc20_sensor_ext_config;
 
 	s->s_camera_type = BACK_CAMERA_2D;
-	s->s_mount_angle = 0;
+	s->s_mount_angle = 90;
 
 probe_done:
 	sr300pc20_set_power(0);
