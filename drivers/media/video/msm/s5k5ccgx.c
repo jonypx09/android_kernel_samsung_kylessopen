@@ -1847,7 +1847,7 @@ static int s5k5ccgx_sensor_probe(const struct msm_camera_sensor_info *info,
 	s->s_ext_config = s5k5ccgx_sensor_ext_config;
 
 	s->s_camera_type = BACK_CAMERA_2D;
-	s->s_mount_angle = 0;
+	s->s_mount_angle = 90;
 
 
 probe_done:
